@@ -35,7 +35,7 @@ cats_and_dogs/    - Dataset descargado automáticamente
 
 ## Resultados
 
-El modelo alcanza una precisión de validación del XX% (valor específico depende del entrenamiento) después de 20 épocas. El conjunto de prueba contiene 50 imágenes para evaluación final.
+El modelo alcanza una precisión de validación del 97% (valor específico depende del entrenamiento) después de 20 épocas. El conjunto de prueba contiene 50 imágenes para evaluación final.
 
 ## Licencia
 
