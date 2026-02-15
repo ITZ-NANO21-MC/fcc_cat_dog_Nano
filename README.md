@@ -13,6 +13,7 @@ Este proyecto implementa un modelo de aprendizaje profundo para clasificar imág
 
 ```
 fcc_cat_dog.ipynb - Notebook principal con el código completo
+main.py           - Versión en script de Python del notebook
 cats_and_dogs/    - Dataset descargado automáticamente
   ├── train/      - Imágenes de entrenamiento
   ├── validation/ - Imágenes de validación
@@ -28,10 +29,22 @@ cats_and_dogs/    - Dataset descargado automáticamente
 
 ## Uso
 
-1. Ejecuta el notebook en Google Colab o localmente
-2. El notebook descargará automáticamente el dataset
-3. Preprocesa las imágenes y entrena el modelo
-4. Evalúa el modelo con el conjunto de prueba
+### Notebook
+1. Ejecuta el notebook `fcc_cat_dog.ipynb` en Google Colab o localmente.
+2. El notebook descargará automáticamente el dataset.
+3. Preprocesa las imágenes y entrena el modelo.
+4. Evalúa el modelo con el conjunto de prueba.
+
+### Script de Python
+1. Asegúrate de tener instaladas las dependencias:
+   ```bash
+   pip install tensorflow numpy matplotlib
+   ```
+2. Ejecuta el script:
+   ```bash
+   python main.py
+   ```
+   El script descargará el dataset si no existe, entrenará el modelo y mostrará los resultados de la evaluación.
 
 ## Resultados
 
